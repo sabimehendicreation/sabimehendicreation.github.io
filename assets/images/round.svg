@@ -1,0 +1,17 @@
+<svg width="122px" height="122px" viewBox="0 0 236 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="124" cy="118" r="91"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="2,10">
+        <g id="Play-Your-Visit" transform="translate(-183.000000, -1730.000000)">
+            <g id="Body" transform="translate(0.000000, 927.000000)">
+                <g id="Group-of-path" transform="translate(230.000000, 840.000000)">
+                    <g id="Oval" transform="translate(-47.000000, -37.000000)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke-opacity="0.6" stroke="#405E70" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

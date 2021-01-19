@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?45568024');
+  src: url('../fonts/fontello.eot?45568024#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?45568024') format('woff2'),
+       url('../fonts/fontello.woff?45568024') format('woff'),
+       url('../fonts/fontello.ttf?45568024') format('truetype'),
+       url('../fonts/fontello.svg?45568024#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?45568024#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-right-arrow:before { content: '\e802'; } /* '' */
+.icon-down-arrow:before { content: '\e804'; } /* '' */
+.icon-linkedin-logo:before { content: '\e805'; } /* '' */
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Gilroy-Light.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Gilroy-Light.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Gilroy-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Gilroy-Light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Gilroy-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/Gilroy-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Gilroy-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Gilroy-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Gilroy-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Gilroy-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Gilroy-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Gilroy-Medium.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Gilroy-Medium.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Gilroy-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Gilroy-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Gilroy-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Gilroy-ExtraBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Gilroy-ExtraBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Gilroy-ExtraBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AlbraTextBold";
+  src: url("../fonts/AlbraTextBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AlbraTextBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AlbraTextBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AlbraTextBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AlbraTextBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AlbraTextBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AlbraTextBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AlbraTextSemi";
+  src: url("../fonts/AlbraTextSemi.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AlbraTextSemi.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AlbraTextSemi.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AlbraTextSemi.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AlbraTextSemi.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AlbraTextSemi.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AlbraTextSemi.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AlbraTextMedium";
+  src: url("../fonts/AlbraTextMedium.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AlbraTextMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AlbraTextMedium.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AlbraTextMedium.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AlbraTextMedium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AlbraTextMedium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AlbraTextMedium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AlbraTextRegular";
+  src: url("../fonts/AlbraTextRegular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AlbraTextRegular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AlbraTextRegular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AlbraTextRegular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AlbraTextRegular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AlbraTextRegular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AlbraTextRegular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AlbraTextLight";
+  src: url("../fonts/AlbraTextLight.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AlbraTextLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AlbraTextLight.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AlbraTextLight.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AlbraTextLight.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AlbraTextLight.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AlbraTextLight.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="right-arrow" unicode="&#xe802;" d="M26 805c0-5 2-9 6-13l412-400c24-23 24-61 0-84l-412-400c-4-4-6-9-6-13 0-5 2-9 6-13 8-8 19-8 27 0l412 400c20 19 29 44 29 68l0 0c0 25-9 49-29 68l-412 400c-8 8-19 8-27 0-4-4-6-8-6-13z" horiz-adv-x="526" />
+
+<glyph glyph-name="down-arrow" unicode="&#xe804;" d="M2031 850c-10 0-21-4-29-12l-876-871c-49-49-131-49-181 1l-876 870c-8 8-18 12-29 12-10 0-20-4-28-12-16-16-16-41 0-57l876-870c41-41 94-61 148-61h0c53 0 107 20 147 61l876 870c17 17 16 41 0 57-8 8-18 12-28 12v0z" horiz-adv-x="2071" />
+
+<glyph glyph-name="linkedin-logo" unicode="&#xe805;" d="M1075 237v-386h-218v360c0 91-32 152-111 152-60 0-96-41-111-81-6-15-8-35-8-55v-376h-218s3 610 0 673h218v-95l-1-2h1v2c29 46 81 111 197 111 143 0 251-96 251-303z m-894 612c-74 0-123-50-123-117 0-64 47-116 120-116h2c76 0 123 52 123 116-1 66-47 117-122 117z m-110-998h218v673h-218v-673z" horiz-adv-x="1154" />
+</font>
+</defs>
+</svg>
